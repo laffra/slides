@@ -31,3 +31,8 @@ This runs a Python UI, written in PyScript LTK, to show the slides and navigate 
 - Goto slide: 1, 2, 3, 4, 5, 6, 7, 8, 9
 - Goto start: Home
 - Goto end: End
+
+## Slide Creation Workflow
+
+![Screenshot 2024-12-02 140713](https://github.com/user-attachments/assets/b4753662-3d1b-4f45-8503-342445fd202b)
+
