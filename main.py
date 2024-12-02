@@ -76,4 +76,4 @@ class Player():
         print("goto page", self.index)
         self.image.attr("src", f"slides/page-{self.index}.png")
 
-Player(22)
+Player(23)
