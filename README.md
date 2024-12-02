@@ -11,7 +11,11 @@ pip install -r requirements.txt
 python convert_pdf.py
 ```
 
-This loads `slides.pdf` from the local file system and generates 1 PNG per page.
+This will do the following:
+ - Ask for a Google Slides URL.
+ - Download the PDF version.
+ - Load the PDF and generate 1 PNG per page.
+ - Save the PNGs in the `slides` directory.
 
 ## Rendering the slides
 
