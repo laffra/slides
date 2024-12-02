@@ -1,6 +1,7 @@
 # Slides with PyScript/LTK
 
-This project is a slide player to show slides from a PDF.
+This project is a slide player to show slides from a PDF. See a
+[Live Example](https://laffra.github.io/slides/).
 
 ## Generating the slides from a PDF
 
@@ -19,7 +20,7 @@ This will do the following:
 
 ## Rendering the slides
 
-Open `index.html` in a browser. A live preview can be seen on [GitHub Pages](https://laffra.github.io/slides/).
+Open `index.html` in a browser. 
 This runs a Python UI, written in PyScript LTK, to show the slides and navigate between them.
 
 ## Navigating slides
