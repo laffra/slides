@@ -5,6 +5,7 @@ LTK player written in Python for (Google Slides) PDF
 import os
 import re
 import shutil
+import sys
 import urllib.request
 
 import pymupdf
@@ -12,9 +13,8 @@ import pymupdf
 PDF_FILENAME = "slides.pdf"
 
 
-def load_pdf(filename):
+def load_pdf(url, filename):
     """ Load a PDF from a URL """
-    url = input("Enter your Google Slides URL: ")
     url = re.sub("/edit.*", "/export/pdf", url)
     print("Loading ", url)
     with open(filename, "bw") as fp:
@@ -46,6 +46,6 @@ def clear():
 
 
 clear()
-load_pdf(PDF_FILENAME)
+load_pdf(sys.argv[1], PDF_FILENAME)
 print(f"Total size is {generate_slides(PDF_FILENAME):,} bytes")
 os.remove(PDF_FILENAME)
