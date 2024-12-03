@@ -1,7 +1,10 @@
 # Slides with PyScript/LTK
 
-This project is a slide player to show slides from a PDF. See a
-[Live Example](https://laffra.github.io/slides/).
+This project is a slide player to show slides from a PDF. 
+
+See a live example of
+[Chris Laffra's PyData Global slides](https://laffra.github.io/slides/) for the
+[PyScript tutorial on Dec 4, 2024](https://global2024.pydata.org/cfp/talk/XXWRWP/).
 
 ## Generating the slides from a PDF
 
