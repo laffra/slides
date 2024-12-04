@@ -3,7 +3,7 @@ A PDF player written using PyScript LTK.
 """
 import ltk
 
-body = ltk.find("body")
+body = ltk.find("body").empty()
 
 class Player():
     """ A PDF player """
